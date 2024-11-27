@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> IMS </title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        .view {
+
+            justify-content: center;
+            display: flex;
+            margin-top: 30px;
+        }
+
+        @media screen and (max-width: 550px) {
+
+            iframe {
+
+                width: 450px;
+                height: 400px;
+                display: flex;
+            }
+
+            .container {
+
+                grid-template-rows: repeat(14, 60px);
+                grid-template-columns: 25% 75%;
+
+            }
+
+            aside { 
+                
+                grid-row: 4/6;
+                grid-column: 1/4;
+                display: flex;
+                flex-wrap: wrap;
+
+            }
+
+            article {
+
+                grid-row: 6/13;
+                grid-column: 1/4;
+                display: flex;
+                
+            }
+
+            img {
+
+                height: 75px;
+                width: 75px;
+            }
+
+            
+        }
+
+        li {
+
+            padding: 5px;
+        }
+
+        .title {
+
+            animation-name: link;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            
+        }
+
+        @keyframes link {
+
+            from {color: #5B16F5;}
+
+            to {color: #16A7F5;}
+        }
+        
+
+        
+    </style>
+
+
+</head>
+<body>
+
+<div class="main">
+
+    <div class="container"> 
+
+        <header> 
+      
+            <img class="wing1" style="left: 10%;" src="wing2.png">
+            <img class="wing3" style="right: 10%;" src="wing2.png">
+
+            <p style="text-align: center; font-weight: 800; font-size: x-large;"> 
+                
+                HISTORY OF THE <br> INDIANAPOLIS 500  </p>
+
+        </header>
+
+            <nav> 
+
+                <a href="index.html"> HOME </a>
+                <a href="history.html"> HISTORY of IMS </a>
+                <a href="winners.html"> 4-TIME WINNERS </a>
+            </nav>
+
+                <aside style="color: white;"> 
+
+                   <a class="title" href="https://www.espn.com/rpm/irl/indyracewayhistory.html"> 
+                    <h1 style="text-align: center;" > Indianapolis Motor 
+                        Speedway Facts </h1> </a>
+
+                        <h4> <ul>
+
+                             <u> Founders </u>
+                             
+                            <li> Carl G. Fisher </li>
+                            <li> James A. Allison </li>
+                            <li> Arthur C. Newby </li>
+                            <li>Frank H. Wheeler </li>
+
+                                        <br>
+
+                            <u> Track Info </u>
+                            <li> Built in 1909 </li>
+                            <li> 257,000 Seats  </li>
+                            <li> 350,000 Total Spectators</li>
+                            <li> 2.5 Mile Oval Track </li>
+                        </ul> </h4>
+
+                </aside>
+
+                    <article> 
+
+                        <div class="view"> 
+                            <iframe width="760" height="375" 
+                            src="https://www.youtube.com/embed/xA_ZxcRrqwU?si=yyUJ9Y3jWXZDi9IW" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; 
+                            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+                            web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        
+                        </iframe>
+
+                    </div>
+
+                       
+                        
+                    </article>
+
+                        <footer> Kyle Havens 2024 </footer>
+
+
+
+    </div>
+
+</div>
+    
+</body>
+</html>
+
+<!--Colors
+#16A7F5
+#161AF5
+#0E3E9D
+#13D1D8
+#5B16F5
+#6897F5-->

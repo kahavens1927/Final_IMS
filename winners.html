@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        h3 {
+
+            text-align: center;
+            color: white;
+            margin-top: 215px;
+        }
+
+       
+
+        @media screen and (max-width: 550px) {
+
+            .container {
+
+                grid-template-rows: repeat(14, 60px);
+                grid-template-columns: auto auto auto auto;
+                
+            }
+
+            aside { 
+                
+                grid-row: 4/6;
+                grid-column: 1/4;
+                display: flex;
+                flex-wrap: wrap;
+
+            }
+
+            article {
+
+                grid-row: 6/13;
+                grid-column: 1/4;
+               display: flex;
+                
+            }
+
+            .unser {
+
+                background-image: url(N.png);
+                background-size: 80px 100px;
+            }
+
+            .foyt {
+
+                background-image: url(I.png);
+                background-size: 80px 100px;
+            }
+
+            .mears {
+
+                background-image: url(d.png);
+                background-size: 80px 100px;
+            }
+
+            .helio {
+
+                background-image: url(y.png);
+                background-size: 80px 100px;
+            }
+
+            .card {
+
+                width: 80px;
+                height: 100px;
+            }
+
+          
+            img {
+
+                height: 75px;
+                width: 75px;
+            }
+
+        }
+
+        p {
+
+            text-align: center;
+            font-weight: 800;
+            font-size: x-large;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+<div class="main">
+
+    <div class="container"> 
+
+        <header> 
+      
+            <img class="wing1" style="left: 10%;" src="wing2.png">
+            <img class="wing3" style="right: 10%;" src="wing2.png">
+
+            <p> 
+                HISTORY OF THE <br> INDIANAPOLIS 500  </p>
+
+        </header>
+
+        <nav> 
+
+                <a href="index.html"> HOME </a>
+                <a href="history.html"> HISTORY of IMS </a>
+                <a href="winners.html"> 4-TIME WINNERS </a>
+
+        </nav>
+
+                <aside style="text-align: center;"> 
+
+                    <p style="font-size: x-large; color: #16A7F5 ;"> <u> Bio Links </u>  </p>
+                    
+                   <p>  <a style="font-size: x-large;" href="https://imsmuseum.org/fame_inductee/a-j-foyt-jr/"> AJ Foyt Jr. </a>
+
+                   </p>
+
+                   <br> <br>
+
+                   <p>  <a style="font-size: x-large;" href="https://imsmuseum.org/fame_inductee/al-unser/"> Al Unser Sr. </a>
+
+                   </p>
+
+                   <br> <br>
+
+                   <p>  <a style="font-size: x-large;" href="https://imsmuseum.org/fame_inductee/rick-mears/"> Rick Mears </a>
+
+                   </p>
+
+                   <br> <br>
+
+                   <p>  <a style="font-size: x-large;" href="https://heliocastroneves.com/about/"> Helio Castroneves </a>
+
+                   </p>
+
+                   <br> <br>
+                
+                
+                </aside>
+
+                    <article style="display: flex; gap: 10px; flex-wrap: nowrap;"> 
+
+                        <div class="card foyt">
+
+                            <h3> A.J. Foyt, Jr. <br> 1961-64-67-77 </h3>
+
+
+                        </div>
+
+                        <div class="card unser">
+
+                            <h3> Al Unser Sr. <br> 1970-71-78-87 </h3>
+
+
+                        </div>
+
+                        <div class="card mears">
+
+                            <h3> Rick Mears <br> 1979-84-88-91 </h3>
+
+
+                        </div>
+
+                        <div class="card helio">
+
+                            <h3> Helio Castroneves <br> 2001-02-09-21 </h3>
+
+
+                        </div>
+
+                        
+
+                    </article>
+
+                        <footer> Kyle Havens 2024 </footer>
+
+
+
+    </div>
+
+</div>
+    
+</body>
+</html>
+
+<!--Colors
+#16A7F5
+#161AF5
+#0E3E9D
+#13D1D8
+#5B16F5
+#6897F5-->
